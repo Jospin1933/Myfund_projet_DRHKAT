@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultats du Recouvrement</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Résultats du Recouvrement</h1>
+
+        {% if result == "FOND_NON_TROUVE" %}
+            <p class="error">⚠ Fonds non trouvé.</p>
+        {% elif result is string %}
+            <p class="message">{{ result }}</p>
+        {% else %}
+            <ul class="result-list">
+                {% for line in result %}
+                    <li class="result-item">{{ line }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        <a href="/" class="btn">⬅ Retour</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 MyFund&Stocks. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

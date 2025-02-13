@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFund&Stocks</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>💰 Les fonds d'action</h1>
+        <p class="description">Comparez vos fonds d’investissement et optimisez votre portefeuille !</p>
+
+        <form action="/calculate" method="post">
+            <label for="current_funds">📌 Fonds actuels :</label>
+            <input type="text" id="current_funds" name="current_funds" placeholder="Ex: AXIS_BLUECHIP ICICI_PRU_BLUECHIP" required>
+            
+            <label for="new_fund">✨ Nouveau fonds :</label>
+            <input type="text" id="new_fund" name="new_fund" placeholder="Ex: MIRAE_ASSET_EMERGING_BLUECHIP" required>
+            
+            <button type="submit"> 💸💸Calculer le recouvrement ici </button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Mon fondd'action.Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

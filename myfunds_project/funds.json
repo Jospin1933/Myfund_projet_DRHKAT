@@ -1,0 +1,96 @@
+{
+    "funds": [
+      {
+        "name": "ICICI_PRU_NIFTY_NEXT_50_INDEX",
+        "stocks": [
+          "INDRAPRASTHA GAS LIMITED",
+          "COLGATE - PALMOLIVE (INDIA) LIMITED",
+          "INDUS TOWERS LIMITED",
+          "INTERGLOBE AVIATION LIMITED",
+          "MARICO LIMITED"
+        ]
+      },
+      {
+        "name": "PARAG_PARIKH_CONSERVATIVE_HYBRID",
+        "stocks": [
+          "INDRAPRASTHA GAS LIMITED",
+          "SONA BLW PRECISION FORGINGS LIMITED",
+          "ADITYA BIRLA FASHION AND RETAIL LIMITED",
+          "GRINDWELL NORTON LIMITED"
+        ]
+      },
+      {
+        "name": "UTI_NIFTY_INDEX",
+        "stocks": [
+          "INFOSYS LIMITED",
+          "BHARTI AIRTEL LIMITED",
+          "EPL LIMITED",
+          "PETRONET LNG LIMITED",
+          "DABUR INDIA LIMITED"
+        ]
+      },
+      {
+        "name": "AXIS_MIDCAP",
+        "stocks": [
+          "ADITYA BIRLA FASHION AND RETAIL LIMITED",
+          "GRINDWELL NORTON LIMITED",
+          "3M INDIA LIMITED",
+          "COROMANDEL INTERNATIONAL LIMITED"
+        ]
+      },
+      {
+        "name": "MIRAE_ASSET_EMERGING_BLUECHIP",
+        "stocks": [
+          "INFOSYS LIMITED",
+          "BHARTI AIRTEL LIMITED",
+          "KANSAI NEROLAC PAINTS LIMITED",
+          "EMAMI LIMITED"
+        ]
+      },
+      {
+        "name": "PARAG_PARIKH_FLEXI_CAP",
+        "stocks": [
+          "MPHASIS LIMITED",
+          "COMPUTER AGE MANAGEMENT SERVICES LIMITED",
+          "AMAZON.COM INC",
+          "SUZUKI MOTOR CORPORATION"
+        ]
+      },
+      {
+        "name": "MIRAE_ASSET_LARGE_CAP",
+        "stocks": [
+          "INFOSYS LIMITED",
+          "BHARTI AIRTEL LIMITED",
+          "EPL LIMITED",
+          "SONA BLW PRECISION FORGINGS LIMITED"
+        ]
+      },
+      {
+        "name": "SBI_LARGE_&_MIDCAP",
+        "stocks": [
+          "SHEELA FOAM LIMITED",
+          "THE GREAT EASTERN SHIPPING COMPANY LIMITED",
+          "GARWARE TECHNICAL FIBRES LIMITED",
+          "THANGAMAYIL JEWELLERY LIMITED"
+        ]
+      },
+      {
+        "name": "AXIS_BLUECHIP",
+        "stocks": [
+          "INFOSYS LIMITED",
+          "BHARTI AIRTEL LIMITED",
+          "MOTHERSON SUMI SYSTEMS LIMITED",
+          "TATA CONSUMER PRODUCTS LIMITED"
+        ]
+      },
+      {
+        "name": "ICICI_PRU_BLUECHIP",
+        "stocks": [
+          "INFOSYS LIMITED",
+          "BHARTI AIRTEL LIMITED",
+          "OIL & NATURAL GAS CORPORATION LIMITED",
+          "INTERGLOBE AVIATION LIMITED"
+        ]
+      }
+    ]
+  }
